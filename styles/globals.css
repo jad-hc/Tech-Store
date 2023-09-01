@@ -65,12 +65,12 @@ width: 100%;
     margin-left: 6px;
 }
 .logo{
-  color: gray;
-  font-size: 18px;
-
+  color: #f02d34;
+  font-size: 2rem;
+  font-weight: bold;
 }
 .cart-icon{
-  font-size: 25px;
+  font-size: 2rem;
   color: gray;
   cursor: pointer;
   position: relative;
