@@ -761,3 +761,54 @@ margin-top: 160px;
   margin: auto;
 }
 }
+
+/* Loader  */
+/*  */
+
+.loader {
+  border: 7px solid rgba(0, 0, 0, .1);
+  border-left-color: transparent;
+  border-radius: 50%;
+}
+
+.loader {
+  border: 7px solid rgba(0, 0, 0, .1);
+  border-left-color: transparent;
+  width: 5rem;
+  height: 5rem;
+}
+
+.loader {
+  border: 7px solid rgba(0, 0, 0, .1);
+  border-left-color: transparent;
+  width: 5rem;
+  height: 5rem;
+  animation: spin89345 1s linear infinite;
+}
+
+@keyframes spin89345 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loader-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.loader-flex{
+  display: inline;
+}
+.loader-p{
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+.loader-main{
+  margin-left: 0.5rem;
+}
